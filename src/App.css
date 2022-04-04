@@ -1,38 +1,60 @@
 .App {
   text-align: center;
+ 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn-add:hover{
+background-color: red;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+ .container-fluid{ 
+    background-color:pink;  
+   display: flexbox;
+ height: 700px; 
+   width: 600px;  
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+   position: absolute; 
+    top: 50%; 
+   left: 50%;   
+   transform: translate(-50%,-50%); 
+   border: 2px solid black; 
+ }
 
-.App-link {
-  color: #61dafb;
+.header{
+  
+  
+  align-items: center;
+ justify-content: center; 
+  display: flex;
+  color: black;
+  min-height: 100vh;
+   background-color: purple;  
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.subhead{
+  color: maroon;
+  font-family: 'Times New Roman', Times, serif;
+  border: 3px solid;
+  background-color: burlywood;
+  font-weight: bolder;
+  
+}
+.head{
+  color: black;
+  font-family: fantasy;
+  font-size:medium ;
+}
+.subhead-2{
+  color: blue;
+}
+.alert_text{
+  color: red;
+  font-size: medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.task-added{
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: lighter;
 }
